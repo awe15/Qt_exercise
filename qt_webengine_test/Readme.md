@@ -1,7 +1,8 @@
 # QWebEngineWidget通信示例
 
-##开发环境：
+## 开发环境：
 Visual Studio 2017 + QT5.12
+
 ***注意：QT需要有QWebEngineWidget模块***
 
 ## 功能介绍
@@ -10,15 +11,16 @@ Visual Studio 2017 + QT5.12
 ### 实现效果
 1.通过手动打开“打开html”文件按钮，提前写好的html文件，在html目录下的index.html。
 
-
 2.点击加载按钮，加载出html内容
+
+![avatar](https://github.com/awe15/Qt_exercise/qt_webengine_test/image/1.png)
 
 ### 功能1：发送普通数据
 点击页面中的“测试1”按钮，正常情况会弹出“HELLO”字样的弹框。
 
 这部分弹框是通过recvMessage的调用显示的。正常弹出，说明数据可以从网页传到QT，同时QT的数据也可以传回数据。
 
-
+![avatar](https://github.com/awe15/Qt_exercise/qt_webengine_test/image/2.png)
 ### 功能2：QT主动发送消息
 点击QT右下角的“发送测试”按钮，正常情况会弹出“HELLO”字样的弹框。
 
@@ -29,7 +31,7 @@ Visual Studio 2017 + QT5.12
 同时会截取图片的部分
 说明通信可以正常传输图片。
 
-
+![avatar](https://github.com/awe15/Qt_exercise/qt_webengine_test/image/3.png)
 
 
 #### 参考:https://www.jianshu.com/p/e25646ee2977
